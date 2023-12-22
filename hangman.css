@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex-grow: 1;
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+header,
+footer {
+    background-color: rgb(132, 91, 98);
+    color: white;
+    padding: 48px;
+    text-align: center;
+}
